@@ -1,0 +1,31 @@
+name: RandomRespawn
+version: '1.0.0'
+main: com.randomrespawn.RandomRespawn
+api-version: '1.20'
+authors: ['wp:1128']
+description: '随机复活点插件 - 在指定世界随机设置复活点，离开时恢复原设置'
+commands:
+    randomrespawn:
+        description: '随机复活点插件主命令'
+        aliases: ['rr']
+    rr:
+        description: '随机复活点插件别名'
+permissions:
+    randomrespawn.use:
+        description: '使用随机复活功能'
+        default: false
+    randomrespawn.admin:
+        description: '管理员权限'
+        default: false
+    randomrespawn.add:
+        description: '添加复活点'
+        default: false
+    randomrespawn.remove:
+        description: '删除复活点'
+        default: false
+    randomrespawn.list:
+        description: '查看复活点列表'
+        default: false
+    randomrespawn.reload:
+        description: '重载配置'
+        default: false

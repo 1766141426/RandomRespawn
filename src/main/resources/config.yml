@@ -1,0 +1,21 @@
+# 随机复活点插件配置
+
+# 启用随机复活的世界列表
+# 玩家进入这些世界时，复活点会随机设置
+# 离开这些世界时，复活点会恢复为原始设置
+target-worlds:
+  - world_nether
+  - world_the_end
+  # 可以添加更多世界，例如：
+  # - custom_world
+  # - adventure_world
+
+# 随机半径（格）
+# 设置为0时使用精确坐标，大于0时在半径内随机偏移
+random-radius: 10
+
+# 消息配置
+messages:
+  enter-target-world: "&a你已进入随机复活世界！复活点已设置为随机位置。"
+  leave-target-world: "&a你已离开随机复活世界！复活点已恢复为原始设置。"
+  respawn-in-target-world: "&e你在随机复活世界死亡，将在随机位置复活！"

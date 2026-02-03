@@ -1,0 +1,26 @@
+# 随机复活点数据文件
+# 不要手动编辑此文件，使用插件命令管理
+
+# 复活点数据格式示例：
+# respawn-points:
+#   world_nether:
+#     - x: 100.5
+#       y: 64.0
+#       z: 200.5
+#       yaw: 90.0
+#       pitch: 0.0
+#     - x: -50.5
+#       y: 70.0
+#       z: 300.5
+#       yaw: 180.0
+#       pitch: 0.0
+#   world_the_end:
+#     - x: 0.5
+#       y: 65.0
+#       z: 0.5
+#       yaw: 0.0
+#       pitch: 0.0
+
+respawn-points:
+  world_nether: []
+  world_the_end: []

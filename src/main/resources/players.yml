@@ -1,0 +1,15 @@
+# 玩家原始复活点数据
+# 用于保存玩家进入随机复活世界前的原始复活点
+# 插件会自动管理此文件
+
+# 数据格式示例：
+# original-respawn:
+#   player-uuid-here:
+#     world: world
+#     x: 100.5
+#     y: 64.0
+#     z: 200.5
+#     yaw: 90.0
+#     pitch: 0.0
+
+original-respawn: {}
